@@ -45,6 +45,7 @@
             comboBox1 = new ComboBox();
             Male = new RadioButton();
             radioButton2 = new RadioButton();
+            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -191,6 +192,7 @@
             // 
             Male.AutoSize = true;
             Male.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Male.ForeColor = SystemColors.ControlLightLight;
             Male.Location = new Point(247, 252);
             Male.Name = "Male";
             Male.Size = new Size(55, 21);
@@ -203,6 +205,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButton2.ForeColor = SystemColors.ControlLightLight;
             radioButton2.Location = new Point(456, 252);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(67, 21);
@@ -211,12 +214,21 @@
             radioButton2.Text = "Female";
             radioButton2.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            dateTimePicker1.Location = new Point(234, 286);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(306, 25);
+            dateTimePicker1.TabIndex = 18;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(14F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Brown;
             ClientSize = new Size(1600, 960);
+            Controls.Add(dateTimePicker1);
             Controls.Add(radioButton2);
             Controls.Add(Male);
             Controls.Add(comboBox1);
@@ -259,5 +271,6 @@
         private ComboBox comboBox1;
         private RadioButton Male;
         private RadioButton radioButton2;
+        private DateTimePicker dateTimePicker1;
     }
 }
