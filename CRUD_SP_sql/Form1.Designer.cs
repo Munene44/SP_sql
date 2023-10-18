@@ -37,18 +37,24 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(292, 66);
+            label1.ForeColor = SystemColors.ControlLightLight;
+            label1.Location = new Point(258, 49);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(394, 32);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "CRUD in C# uisng stored procedure";
+            label1.Click += label1_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Brown;
+            ClientSize = new Size(1486, 960);
             Controls.Add(label1);
+            Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();

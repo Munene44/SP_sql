@@ -6,5 +6,10 @@ namespace CRUD_SP_sql
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
