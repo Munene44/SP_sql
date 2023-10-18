@@ -72,9 +72,9 @@
             label3.Location = new Point(60, 257);
             label3.Margin = new Padding(6, 0, 6, 0);
             label3.Name = "label3";
-            label3.Size = new Size(97, 21);
+            label3.Size = new Size(96, 21);
             label3.TabIndex = 2;
-            label3.Text = "Employee ID";
+            label3.Text = "Joining Date";
             // 
             // label4
             // 
@@ -84,9 +84,9 @@
             label4.Location = new Point(60, 220);
             label4.Margin = new Padding(6, 0, 6, 0);
             label4.Name = "label4";
-            label4.Size = new Size(97, 21);
+            label4.Size = new Size(34, 21);
             label4.TabIndex = 3;
-            label4.Text = "Employee ID";
+            label4.Text = "Sex";
             // 
             // label5
             // 
@@ -96,9 +96,9 @@
             label5.Location = new Point(60, 186);
             label5.Margin = new Padding(6, 0, 6, 0);
             label5.Name = "label5";
-            label5.Size = new Size(97, 21);
+            label5.Size = new Size(109, 21);
             label5.TabIndex = 4;
-            label5.Text = "Employee ID";
+            label5.Text = "Employee City";
             // 
             // label6
             // 
@@ -108,9 +108,9 @@
             label6.Location = new Point(60, 156);
             label6.Margin = new Padding(6, 0, 6, 0);
             label6.Name = "label6";
-            label6.Size = new Size(97, 21);
+            label6.Size = new Size(124, 21);
             label6.TabIndex = 5;
-            label6.Text = "Employee ID";
+            label6.Text = "Employee Name";
             // 
             // Form1
             // 
