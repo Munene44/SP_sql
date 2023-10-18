@@ -42,6 +42,7 @@
             textBox6 = new TextBox();
             label8 = new Label();
             textBox4 = new TextBox();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -175,12 +176,22 @@
             textBox4.Size = new Size(284, 25);
             textBox4.TabIndex = 14;
             // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(217, 186);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(183, 25);
+            comboBox1.TabIndex = 15;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Brown;
             ClientSize = new Size(1486, 960);
+            Controls.Add(comboBox1);
             Controls.Add(textBox4);
             Controls.Add(label8);
             Controls.Add(textBox6);
@@ -217,5 +228,6 @@
         private TextBox textBox6;
         private Label label8;
         private TextBox textBox4;
+        private ComboBox comboBox1;
     }
 }
