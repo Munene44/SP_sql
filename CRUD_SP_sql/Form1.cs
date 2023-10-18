@@ -16,5 +16,10 @@ namespace CRUD_SP_sql
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
