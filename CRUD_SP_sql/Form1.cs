@@ -11,5 +11,10 @@ namespace CRUD_SP_sql
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
